@@ -1,0 +1,173 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	display: block; 
+
+}
+
+
+h1 {
+	font-family: 'Nanum Gothic Coding', monospace;
+	text-align: center;
+	
+}
+h3, h2, h5 {
+     text-align: center;
+ }
+
+hr {
+	width: 180px;
+	 text-align: justify;
+}
+
+
+i {
+	font-weight: 5;
+	font-style: italic;
+}
+p{
+	margin-left: 20px;
+}
+
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/bg.jpg);
+	height: 400px;
+	background-position: center;
+	position: relative;	
+}
+
+footer {
+	padding: 20px 0px;
+	text-align: center;
+	
+}
+
+section {
+
+	margin: 0px 50px;
+
+
+
+}
+
+img {
+	text-align: center;
+
+}
+
+.text-box {
+	display: inline-block;
+	width: 500px;
+}
+.header-text {
+	color: #F8F8FF;
+	text-align: center;
+
+}
+
+.container {
+	width: 1400px;
+	height: 40px;
+	margin:0px auto;
+	background-color: rgba(255, 255, 255, 0.7);	
+	text-align: center;
+
+
+}
+
+.topnav {
+    list-style: none;
+    margin-top:20px 20px;
+
+}
+
+.topnav li {
+	display: inline;
+	margin: 10px 10px;
+
+}
+
+.topnav li a {
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 10px;
+}
+
+
+
+#slide {
+	
+	max-width: 300px;
+	height: 300px;
+	position: absolute;
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 500px;
+	margin-right: auto;
+	padding: 15px 15px;
+
+	
+
+}
+
+#home {
+	float: left;
+}
+
+
+
+.hero {
+	background-color: rgba(255, 255, 255, 0.9);
+	margin: 1px 100px;
+
+}
+
+#about {
+	margin-left: 20px;
+	display: inline-block;
+	height: 100px;
+	width: 300px;
+
+
+
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px 50px;
+  display: inline-block;
+
+  
+}
+
+.card-container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.blog-post {
+
+	max-width: 850px;
+	max-height: 300px;
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: auto;
+	padding: 15px 15px;
+	position: relative;
+	text-align: left;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+   
+}
+
+
+
+

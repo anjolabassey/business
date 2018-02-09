@@ -3,62 +3,78 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Raleway" rel="stylesheet">
+
 	<title>Business Casual</title>
 </head>
 
 <body>
 	<header>
-		<h1>Business Casual</h1>
-		<h5>3481 MELROSE PLACE BEVERLY HILLS, CA 90210 123 456 7890 </h5>
+		<div class="header-text">
+			<h1>Business Casual</h1>
+			<h5>3481 MELROSE PLACE | BEVERLY HILLS, CA 90210 | 123 456 7890 </h5>
+		</div>
 
-		<div class="topnav">
-			<a class="active" href="home.html"> HOME </a><a href="about.html"> ABOUT </a> 
-			<a href="blog.html"> BLOG </a> 
-			<a href="contact.html"> CONTACT </a> 
+		<div class="container">
+			<div class="topnav">
+				<ul>
+					<li><a class="active" href="home.html"> HOME </a></li>
+					<li><a href="about.html"> ABOUT </a></li>
+					<li><a href="blog.html"> BLOG </a></li> 
+					<li><a href="contact.html"> CONTACT </a></li>
+				</ul> 
 
+			</div>
 		</div>
 		
+		<div class="hero">
+			<hr>
+			<h2><i>CONTACT</i> BUSINESS CASUAL </h2>
+			<hr>
+
+
+			<div id="map"> map will go here</div>
+
+			<div class="text-box">
+				<p>Phone:<br>123 456 7890</p>
+
+				<p>Email:<br>name@example.com</p>
+
+				<p>Address:<br>3481 MELROSE PLACE<br> BEVERLY HILLS, CA 90210 </p>
+			</div>
+
+
+
+		</header>
+
+
 
 		<hr>
-		<h2><i>CONTACT</i> BUSINESS CASUAL </h2>
+		<h2><i>CONTACT</i> FORM </h2>
 	</hr>
 
-	<div id="map"> map will go here</div>
-	<div class="address">
-		Phone:<br>123 456 7890
+	<form action="/action_page.php">
+		Name:<br>
+		<input type="text" name="name">
+		<br>
 
-		<p>Email:<br>name@example.com</p>
+		Email Address:<br>
+		<input type="text" name="email">
+		<br>
 
-		<p>Address:<br>3481 MELROSE PLACE<br> BEVERLY HILLS, CA 90210 </p>
-	</div>
+		Phone Number:<br>
+		<input type="text" name="phone">
+		<br><br>
+		Message <br>
+		<textarea name="message" rows="10" cols="20">
 
-</header>
+		</textarea>
 
-<hr>
-<h2><i>CONTACT</i> FORM </h2>
-</hr>
+		<br><br>
 
-<form action="/action_page.php">
-	Name:<br>
-	<input type="text" name="name">
-	<br>
-	
-	Email Address:<br>
-	<input type="text" name="email">
-	<br>
-
-	Phone Number:<br>
-	<input type="text" name="phone">
-	<br><br>
-	Message <br>
-	<textarea name="message" rows="10" cols="20">
-
-	</textarea>
-
-	<br><br>
-
-	<input type="submit" value="Submit">
-</form> 
+		<input type="submit" value="Submit">
+	</form> 
 
 
 
@@ -66,9 +82,9 @@
 
 
 
-<footer>
-	<p>Copyright &copy; Your Website 2017 </p>
-</footer>
+	<footer>
+		<p>Copyright &copy; Your Website 2017 </p>
+	</footer>
 
 
 
