@@ -1,6 +1,8 @@
+
+
 body {
 	font-family: 'Raleway', sans-serif;
-	display: block; 
+	
 
 }
 
@@ -24,7 +26,8 @@ i {
 	font-weight: 5;
 	font-style: italic;
 }
-p{
+
+p {
 	margin-left: 20px;
 }
 
@@ -34,6 +37,7 @@ header {
 	height: 400px;
 	background-position: center;
 	position: relative;	
+	text-align: center; 
 }
 
 footer {
@@ -44,15 +48,18 @@ footer {
 
 section {
 
-	margin: 0px 50px;
-
-
+	margin: 0px 100px;
 
 }
 
-img {
-	text-align: center;
+section img {
+	float: left;
+	margin-right: 10px;
 
+}
+
+.home-text {
+	margin: 0px auto;
 }
 
 .text-box {
@@ -62,15 +69,17 @@ img {
 .header-text {
 	color: #F8F8FF;
 	text-align: center;
+	padding: 1px;
+	line-height: 0.7;
 
 }
 
 .container {
-	width: 1400px;
 	height: 40px;
 	margin:0px auto;
 	background-color: rgba(255, 255, 255, 0.7);	
 	text-align: center;
+	padding top: 1px;
 
 
 }
@@ -96,25 +105,15 @@ img {
 
 
 
-#slide {
-	
-	max-width: 300px;
-	height: 300px;
-	position: absolute;
-	background-color: white;
+header img {
+	background-color: rgba(255,255,255,0.9);
 	margin-top: 20px;
-	margin-left: 500px;
-	margin-right: auto;
-	padding: 15px 15px;
-
-	
-
+	padding: 20px;
 }
 
-#home {
-	float: left;
+.section-title{
+	margin-top: 120px;
 }
-
 
 
 .hero {
@@ -168,6 +167,22 @@ img {
    
 }
 
+@media screen and (max-width: 480px) {
+    header img { 
+    	max-width: 90%;
+    	height:auto;
+    }
+
+    section img {
+	float: left;
+	margin-right: 10px;
+	max-width: 100%;
+
+}
+    body {
+    	background-color: blue;
+    }
+}
 
 
 
